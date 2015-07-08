@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'istok_webbold';
+    src: url('/dev/fonts/istokbold/istokweb-bold.eot');
+    src: url('/dev/fonts/istokbold/istokweb-bold.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/istokbold/istokweb-bold.woff') format('woff'),
+    url('/dev/fonts/istokbold/istokweb-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'istok_webregular';
+    src: url('/dev/fonts/istokregular/istokweb-regular.eot');
+    src: url('/dev/fonts/istokregular/istokweb-regular.eot?#iefix') format('embedded-opentype'),
+    url('/dev/fonts/istokregular/istokweb-regular.woff') format('woff'),
+    url('/dev/fonts/istokregular/istokweb-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

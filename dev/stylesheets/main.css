@@ -1,0 +1,612 @@
+/* line 5, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/main.scss */
+body {
+  width: 100%;
+  background-color: #fff;
+  color: #ffffff;
+  font-family: "Istok Web", sans-serif;
+  font-size: 13pt;
+}
+
+/* line 19, ../sass/main.scss */
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 75px;
+  background-color: rgba(151, 125, 166, 0.5);
+  font-size: 11pt;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 3px solid #a997c5;
+  z-index: 3;
+}
+
+/* line 34, ../sass/main.scss */
+.logo img {
+  width: 100%;
+}
+
+/* line 41, ../sass/main.scss */
+nav ul li {
+  display: inline-block;
+  margin-right: 32px;
+  line-height: 70px;
+}
+/* line 46, ../sass/main.scss */
+nav ul li a {
+  color: #ffffff;
+  text-shadow: -1px 0 1px #fff;
+}
+/* line 50, ../sass/main.scss */
+nav ul li:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+/* line 59, ../sass/main.scss */
+.right-nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin-right: 20px;
+}
+/* line 63, ../sass/main.scss */
+.right-nav ul li a {
+  margin-top: 22px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 73, ../sass/main.scss */
+.slider-header {
+  width: 100%;
+  height: 599px;
+  overflow: hidden;
+  margin: 0 0 7px;
+  position: relative;
+}
+/* line 79, ../sass/main.scss */
+.slider-header ul, .slider-header li {
+  padding: 0;
+  margin: 0;
+}
+/* line 83, ../sass/main.scss */
+.slider-header ul {
+  width: 9999px;
+}
+/* line 85, ../sass/main.scss */
+.slider-header ul li {
+  float: left;
+  width: auto;
+  height: 599px;
+}
+/* line 91, ../sass/main.scss */
+.slider-header .nav {
+  position: absolute;
+  left: 45%;
+  bottom: 20px;
+}
+/* line 95, ../sass/main.scss */
+.slider-header .nav span {
+  opacity: .9;
+  background: url("../img/slide-unactive.png");
+  margin: 0 8px 0 0;
+  width: 18px;
+  height: 18px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+  float: left;
+}
+/* line 109, ../sass/main.scss */
+.slider-header .nav span.on {
+  background: #ffffff;
+}
+
+/* line 115, ../sass/main.scss */
+.liberte {
+  margin-top: 115px;
+  text-align: center;
+}
+/* line 118, ../sass/main.scss */
+.liberte p {
+  margin-top: 44px;
+  color: #4b3f55;
+}
+
+/* line 124, ../sass/main.scss */
+h1.heading {
+  text-align: center;
+  font-style: "Istok Web", sans-serif;
+  color: #775ba3;
+  font-size: 26px;
+}
+
+/* line 131, ../sass/main.scss */
+.posterite {
+  margin-top: 118px;
+  border: 1px solid #91c5a9;
+}
+/* line 134, ../sass/main.scss */
+.posterite h1.heading {
+  padding-top: 86px;
+}
+/* line 137, ../sass/main.scss */
+.posterite img {
+  margin-top: 64px;
+  margin-bottom: 52px;
+}
+/* line 141, ../sass/main.scss */
+.posterite span {
+  font-size: 40px;
+  font-weight: bold;
+  color: #91c5a9;
+}
+/* line 146, ../sass/main.scss */
+.posterite p {
+  color: #4b3f55;
+  text-align: center;
+  font-size: 10pt;
+  font-weight: 600;
+  padding-left: 4px;
+  padding-bottom: 96px;
+}
+
+/* line 156, ../sass/main.scss */
+.our-team {
+  margin-top: 118px;
+}
+/* line 158, ../sass/main.scss */
+.our-team h1.heading {
+  font-weight: bold;
+  margin-bottom: 42px;
+}
+/* line 163, ../sass/main.scss */
+.our-team .team img {
+  width: 357px;
+  height: 371px;
+  object-fit: cover;
+  border: 1px solid #91c5a9;
+  border-bottom: 2px solid #91c5a9;
+}
+/* line 170, ../sass/main.scss */
+.our-team .team p.label {
+  color: #91c5a9;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 5px;
+  border-bottom: 3px solid #91c5a9;
+}
+/* line 176, ../sass/main.scss */
+.our-team .team p.label span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 181, ../sass/main.scss */
+.our-team .team p {
+  padding-top: 18px;
+  padding-bottom: 34px;
+  color: #4b3f55;
+  font-size: 13px;
+}
+
+/* line 190, ../sass/main.scss */
+.fb, .gp, .liveint, .tw, .yt {
+  height: 60px;
+  position: relative;
+  text-align: center;
+  line-height: 75px;
+  width: 50%;
+}
+/* line 196, ../sass/main.scss */
+.fb a, .gp a, .liveint a, .tw a, .yt a {
+  left: 0;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+}
+
+/* line 204, ../sass/main.scss */
+.fb {
+  background-color: #3b5998;
+}
+
+/* line 208, ../sass/main.scss */
+.gp {
+  background-color: #d14333;
+}
+
+/* line 213, ../sass/main.scss */
+.liveint {
+  background-color: #ea4c88;
+}
+
+/* line 217, ../sass/main.scss */
+.tw {
+  background-color: #00aced;
+}
+
+/* line 221, ../sass/main.scss */
+.yt {
+  background-color: #c70c0c;
+}
+
+/* line 225, ../sass/main.scss */
+.features {
+  margin-top: 112px;
+  background-color: #775ba3;
+}
+/* line 228, ../sass/main.scss */
+.features img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* line 232, ../sass/main.scss */
+.features h1.heading {
+  padding-top: 100px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+/* line 239, ../sass/main.scss */
+.features h1.content-heading {
+  text-align: left;
+  font-style: "Istok Web", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+/* line 246, ../sass/main.scss */
+.features p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 54px;
+}
+/* line 251, ../sass/main.scss */
+.features .container {
+  padding-bottom: 114px;
+}
+
+/* line 256, ../sass/main.scss */
+.btn {
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  color: #ffffff;
+  border: 4px solid #ffffff;
+  width: 184px;
+  height: 46px;
+  font-weight: bold;
+}
+/* line 265, ../sass/main.scss */
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 270, ../sass/main.scss */
+.temoigne {
+  margin-top: 106px;
+  border-bottom: 1px solid #91c5a9;
+}
+/* line 273, ../sass/main.scss */
+.temoigne h1.heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 278, ../sass/main.scss */
+.temoigne img.quote {
+  margin-left: 40px;
+}
+/* line 280, ../sass/main.scss */
+.temoigne img.quote:last-child {
+  float: right;
+}
+/* line 284, ../sass/main.scss */
+.temoigne p {
+  color: #4b3f55;
+  line-height: 40px;
+  font-size: 24px;
+  padding-left: 40px;
+}
+/* line 291, ../sass/main.scss */
+.temoigne span {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #7e63a8;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+
+/* line 301, ../sass/main.scss */
+.slider {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 0 7px;
+  position: relative;
+}
+/* line 307, ../sass/main.scss */
+.slider ul, .slider li {
+  padding: 0;
+  margin: 0;
+}
+/* line 311, ../sass/main.scss */
+.slider ul {
+  width: 9999px;
+}
+/* line 313, ../sass/main.scss */
+.slider ul li {
+  float: left;
+  width: 1020px;
+  height: 200px;
+}
+/* line 319, ../sass/main.scss */
+.slider .nav1 {
+  position: absolute;
+  left: 45%;
+  bottom: 20px;
+}
+/* line 323, ../sass/main.scss */
+.slider .nav1 span {
+  opacity: .9;
+  background: url("../img/slide-unactive1.png");
+  margin: 0 8px 0 0;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+  float: left;
+}
+/* line 337, ../sass/main.scss */
+.slider .nav1 span.on {
+  background: #91c5a9;
+}
+
+/* line 343, ../sass/main.scss */
+.portfolio {
+  margin-top: 70px;
+  margin-bottom: 114px;
+}
+/* line 346, ../sass/main.scss */
+.portfolio h1.heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 350, ../sass/main.scss */
+.portfolio ul {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 68px;
+}
+/* line 354, ../sass/main.scss */
+.portfolio ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+/* line 358, ../sass/main.scss */
+.portfolio ul li a {
+  color: #7e63a8;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 362, ../sass/main.scss */
+.portfolio ul li a:hover {
+  border-bottom: 2px solid #91c5a9;
+}
+
+/* line 370, ../sass/main.scss */
+.gallery {
+  position: relative;
+}
+/* line 372, ../sass/main.scss */
+.gallery img {
+  width: 285px;
+  height: 263px;
+  position: relative;
+  object-fit: cover;
+}
+/* line 378, ../sass/main.scss */
+.gallery .col-md-3 {
+  padding: 0;
+  margin: 0;
+}
+/* line 382, ../sass/main.scss */
+.gallery .menu {
+  background: none;
+  display: block;
+  position: absolute;
+  z-index: 21;
+  width: 285px;
+  height: 263px;
+}
+/* line 389, ../sass/main.scss */
+.gallery .menu .add {
+  cursor: pointer;
+  display: none;
+  z-index: 21;
+  position: absolute;
+  top: 110px;
+  left: 86px;
+  background: url("../img/hover1.png");
+  width: 55px;
+  height: 55px;
+}
+/* line 400, ../sass/main.scss */
+.gallery .menu .view {
+  cursor: pointer;
+  display: none;
+  z-index: 21;
+  position: absolute;
+  top: 110px;
+  left: 150px;
+  background: url("../img/hover2.png");
+  width: 56px;
+  height: 56px;
+}
+
+/* line 414, ../sass/main.scss */
+footer {
+  background: #91c5a9;
+}
+/* line 416, ../sass/main.scss */
+footer .container {
+  padding-bottom: 36px;
+}
+/* line 419, ../sass/main.scss */
+footer h1.footer {
+  margin-top: 62px;
+  margin-bottom: 26px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Istok Web", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* line 428, ../sass/main.scss */
+footer p {
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 434, ../sass/main.scss */
+footer a.tag {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #419568;
+  margin: 10px 5px;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  -webkit-transition: box-shadow 1s;
+  -moz-transition: box-shadow 1s;
+  -ms-transition: box-shadow 1s;
+  -o-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+}
+/* line 450, ../sass/main.scss */
+footer a.tag:hover {
+  -webkit-box-shadow: -1px -1px 5px #000;
+  -moz-box-shadow: -1px -1px 5px #000;
+  box-shadow: -1px -1px 5px #000;
+}
+/* line 458, ../sass/main.scss */
+footer form p {
+  margin-top: 20px;
+}
+/* line 461, ../sass/main.scss */
+footer form input[type="text"] {
+  height: 26px;
+  width: 182px;
+  margin-top: 8px;
+  float: right;
+  outline: 1px solid #419568;
+}
+/* line 469, ../sass/main.scss */
+footer form input[type="text"]:last-child {
+  height: 96px;
+  width: 182px;
+}
+
+/* line 476, ../sass/main.scss */
+.last-line {
+  background: #54865d;
+  font-weight: bold;
+  font-size: 9px;
+  text-align: center;
+}
+/* line 481, ../sass/main.scss */
+.last-line .container {
+  padding-bottom: 0;
+}
+/* line 484, ../sass/main.scss */
+.last-line h1 {
+  font-size: 12px;
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+/* line 489, ../sass/main.scss */
+.last-line p {
+  margin-top: 34px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
