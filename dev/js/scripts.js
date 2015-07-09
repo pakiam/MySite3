@@ -17,16 +17,21 @@ $(document).ready(function() {
         });
         $(obj).find(".nav1 span").first().addClass("on"); // делаем активным первый элемент меню
     });
-       $(".gallery .menu").each(function(){
-          $(this).hover(function(){
-                  $(this).css("background","rgba(206,178,141,.7)");
-                  $(this).find("div").css("display","block");
-              }, function(){
-                  $(this).css("background","none");
-                  $(this).find("div").css("display","none");
-              }
-          );
-       });
+    // hover для блока gallery
+    $(".gallery .preview").each(function () {
+        var obj=$(this);
+        $(obj).prepend("<div class='menu'><div class='add'></div><div class='view'></div></div>");
+        $(obj).find(".menu").each(function(){
+            $(this).hover(function(){
+                    $(this).css("background","rgba(206,178,141,.7)");
+                    $(this).find("div").css("display","block");
+                }, function(){
+                    $(this).css("background","none");
+                    $(this).find("div").css("display","none");
+                }
+            );
+        });
+    });
 });
 function sliderJS (obj, sl) { // slider function
     var ul = $(sl).find("ul"); // находим блок

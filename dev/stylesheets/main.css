@@ -476,59 +476,58 @@ h1.heading {
 }
 /* line 372, ../sass/main.scss */
 .gallery img {
-  width: 285px;
+  max-width: 100%;
   height: 263px;
-  position: relative;
   object-fit: cover;
 }
-/* line 378, ../sass/main.scss */
+/* line 377, ../sass/main.scss */
 .gallery .col-md-3 {
   padding: 0;
   margin: 0;
 }
-/* line 382, ../sass/main.scss */
+/* line 381, ../sass/main.scss */
 .gallery .menu {
   background: none;
   display: block;
   position: absolute;
   z-index: 21;
-  width: 285px;
-  height: 263px;
+  width: 100%;
+  height: 98.5%;
 }
-/* line 389, ../sass/main.scss */
+/* line 388, ../sass/main.scss */
 .gallery .menu .add {
   cursor: pointer;
   display: none;
   z-index: 21;
   position: absolute;
-  top: 110px;
-  left: 86px;
+  top: 40%;
+  left: 30%;
   background: url("../img/hover1.png");
   width: 55px;
   height: 55px;
 }
-/* line 400, ../sass/main.scss */
+/* line 399, ../sass/main.scss */
 .gallery .menu .view {
   cursor: pointer;
   display: none;
   z-index: 21;
   position: absolute;
-  top: 110px;
-  left: 150px;
+  top: 40%;
+  left: 54%;
   background: url("../img/hover2.png");
   width: 56px;
   height: 56px;
 }
 
-/* line 414, ../sass/main.scss */
+/* line 413, ../sass/main.scss */
 footer {
   background: #91c5a9;
 }
-/* line 416, ../sass/main.scss */
+/* line 415, ../sass/main.scss */
 footer .container {
   padding-bottom: 36px;
 }
-/* line 419, ../sass/main.scss */
+/* line 418, ../sass/main.scss */
 footer h1.footer {
   margin-top: 62px;
   margin-bottom: 26px;
@@ -538,14 +537,14 @@ footer h1.footer {
   font-size: 22px;
   font-weight: bold;
 }
-/* line 428, ../sass/main.scss */
+/* line 427, ../sass/main.scss */
 footer p {
   display: inline-block;
   font-size: 14px;
   text-align: center;
   font-weight: bold;
 }
-/* line 434, ../sass/main.scss */
+/* line 433, ../sass/main.scss */
 footer a.tag {
   display: inline-block;
   padding: 10px 16px;
@@ -563,17 +562,17 @@ footer a.tag {
   -o-transition: box-shadow 1s;
   transition: box-shadow 1s;
 }
-/* line 450, ../sass/main.scss */
+/* line 449, ../sass/main.scss */
 footer a.tag:hover {
   -webkit-box-shadow: -1px -1px 5px #000;
   -moz-box-shadow: -1px -1px 5px #000;
   box-shadow: -1px -1px 5px #000;
 }
-/* line 458, ../sass/main.scss */
+/* line 457, ../sass/main.scss */
 footer form p {
   margin-top: 20px;
 }
-/* line 461, ../sass/main.scss */
+/* line 460, ../sass/main.scss */
 footer form input[type="text"] {
   height: 26px;
   width: 182px;
@@ -581,30 +580,30 @@ footer form input[type="text"] {
   float: right;
   outline: 1px solid #419568;
 }
-/* line 469, ../sass/main.scss */
+/* line 468, ../sass/main.scss */
 footer form input[type="text"]:last-child {
   height: 96px;
   width: 182px;
 }
 
-/* line 476, ../sass/main.scss */
+/* line 475, ../sass/main.scss */
 .last-line {
   background: #54865d;
   font-weight: bold;
   font-size: 9px;
   text-align: center;
 }
-/* line 481, ../sass/main.scss */
+/* line 480, ../sass/main.scss */
 .last-line .container {
   padding-bottom: 0;
 }
-/* line 484, ../sass/main.scss */
+/* line 483, ../sass/main.scss */
 .last-line h1 {
   font-size: 12px;
   margin-top: 34px;
   margin-bottom: 10px;
 }
-/* line 489, ../sass/main.scss */
+/* line 488, ../sass/main.scss */
 .last-line p {
   margin-top: 34px;
   margin-bottom: 10px;
