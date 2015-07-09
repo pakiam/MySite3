@@ -71,7 +71,6 @@ nav {
 }
 
 .slider-header {
-  width: 100%;
   height: 599px;
   overflow: hidden;
   margin: 0 0 7px;
@@ -135,6 +134,7 @@ h1.heading {
     padding-top: 86px;
   }
   img {
+    max-width: 100%;
     margin-top: 64px;
     margin-bottom: 52px;
   }

@@ -1,170 +1,31 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1280px) {
-  /* line 11, ../sass/media.scss */
-  .team img {
-    max-width: 100%;
-    height: 371px;
-    object-fit: cover;
-    border: 1px solid #91c5a9;
-    border-bottom: 2px solid #91c5a9;
-  }
-
-  /* line 19, ../sass/media.scss */
-  .slider {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    margin: 0 0 7px;
-    position: relative;
-  }
-  /* line 25, ../sass/media.scss */
-  .slider ul, .slider li {
-    padding: 0;
-    margin: 0;
-  }
-  /* line 29, ../sass/media.scss */
-  .slider ul {
-    width: 9999px;
-  }
-  /* line 31, ../sass/media.scss */
-  .slider ul li {
-    float: left;
-    width: 920px;
-    height: 200px;
-  }
-
-  /* line 39, ../sass/media.scss */
-  .gallery img {
-    width: 440px;
-    height: 263px;
-    object-fit: cover;
-  }
-
-  /* line 45, ../sass/media.scss */
-  .menu {
-    background: none;
-    display: block;
-    position: absolute;
-    z-index: 21;
-    width: 440px !important;
-    height: 263px;
-  }
-  /* line 52, ../sass/media.scss */
-  .menu .add {
-    cursor: pointer;
-    display: none;
-    z-index: 21;
-    position: absolute;
-    top: 110px;
-    left: 86px;
-    background: url("../img/hover1.png");
-    width: 55px;
-    height: 55px;
-  }
-  /* line 63, ../sass/media.scss */
-  .menu .view {
-    cursor: pointer;
-    display: none;
-    z-index: 21;
-    position: absolute;
-    top: 110px;
-    left: 150px;
-    background: url("../img/hover2.png");
-    width: 56px;
-    height: 56px;
-  }
-}
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 1024px) {
-  /* line 82, ../sass/media.scss */
-  .posterite img {
-    width: 100%;
-  }
-
-  /* line 87, ../sass/media.scss */
-  .slider-header img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  /* line 94, ../sass/media.scss */
-  .team img {
-    max-width: 100%;
-    height: 371px;
-    object-fit: cover;
-    border: 1px solid #91c5a9;
-    border-bottom: 2px solid #91c5a9;
-  }
-
-  /* line 104, ../sass/media.scss */
-  .gallery img {
-    width: 440px;
-    height: 263px;
-    object-fit: cover;
-  }
-
-  /* line 110, ../sass/media.scss */
-  .menu {
-    background: none;
-    display: block;
-    position: absolute;
-    z-index: 21;
-    width: 440px;
-    height: 263px;
-  }
-  /* line 117, ../sass/media.scss */
-  .menu .add {
-    cursor: pointer;
-    display: none;
-    z-index: 21;
-    position: absolute;
-    top: 110px;
-    left: 164px !important;
-    background: url("../img/hover1.png");
-    width: 55px;
-    height: 55px;
-  }
-  /* line 128, ../sass/media.scss */
-  .menu .view {
-    cursor: pointer;
-    display: none;
-    z-index: 21;
-    position: absolute;
-    top: 110px;
-    left: 230px !important;
-    background: url("../img/hover2.png");
-    width: 56px;
-    height: 56px;
-  }
-
-  /* line 140, ../sass/media.scss */
-  .temoigne {
-    display: none;
-  }
-}
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /* line 147, ../sass/media.scss */
-  .posterite img {
-    display: none;
-  }
-
-  /* line 150, ../sass/media.scss */
-  nav ul li {
-    font-size: 1px;
-  }
-}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /* line 159, ../sass/media.scss */
+  /* line 26, ../sass/media.scss */
   .right-nav {
     display: none;
   }
 
-  /* line 162, ../sass/media.scss */
+  /* line 29, ../sass/media.scss */
   .temoigne {
     display: none;
+  }
+
+  /* line 33, ../sass/media.scss */
+  .features p {
+    margin-bottom: 10px;
+  }
+  /* line 36, ../sass/media.scss */
+  .features img {
+    display: none;
+  }
+
+  /* line 40, ../sass/media.scss */
+  .second-block {
+    margin-top: 20px;
   }
 }
 /* Custom, iPhone Retina */

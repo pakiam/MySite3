@@ -124,34 +124,33 @@ nav ul li:hover {
 
 /* line 73, ../sass/main.scss */
 .slider-header {
-  width: 100%;
   height: 599px;
   overflow: hidden;
   margin: 0 0 7px;
   position: relative;
 }
-/* line 79, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .slider-header ul, .slider-header li {
   padding: 0;
   margin: 0;
 }
-/* line 83, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 .slider-header ul {
   width: 9999px;
 }
-/* line 85, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 .slider-header ul li {
   float: left;
   width: auto;
   height: 599px;
 }
-/* line 91, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .slider-header .nav {
   position: absolute;
   left: 45%;
   bottom: 20px;
 }
-/* line 95, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .slider-header .nav span {
   opacity: .9;
   background: url("../img/slide-unactive.png");
@@ -166,41 +165,42 @@ nav ul li:hover {
   display: block;
   float: left;
 }
-/* line 109, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 .slider-header .nav span.on {
   background: #ffffff;
 }
 
-/* line 115, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 .liberte {
   margin-top: 115px;
   text-align: center;
 }
-/* line 118, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 .liberte p {
   margin-top: 44px;
   color: #4b3f55;
 }
 
-/* line 124, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 h1.heading {
   text-align: center;
-  font-style: "Istok Web", sans-serif;
+  font-family: "Istok Web", sans-serif;
   color: #775ba3;
   font-size: 26px;
 }
 
-/* line 131, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 .posterite {
   margin-top: 118px;
   border: 1px solid #91c5a9;
 }
-/* line 134, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 .posterite h1.heading {
   padding-top: 86px;
 }
-/* line 137, ../sass/main.scss */
+/* line 136, ../sass/main.scss */
 .posterite img {
+  max-width: 100%;
   margin-top: 64px;
   margin-bottom: 52px;
 }
@@ -320,7 +320,7 @@ h1.heading {
 /* line 239, ../sass/main.scss */
 .features h1.content-heading {
   text-align: left;
-  font-style: "Istok Web", sans-serif;
+  font-family: "Istok Web", sans-serif;
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 14px;
