@@ -1,28 +1,35 @@
 /*==========  Desktop First Method  ==========*/
-$lg: 1280px ;
-$mg: 1024px ;
+$lg: 1280px;
+$mg: 1024px;
 $sm: 768px;
 $xs: 480px;
 $custom: 320px;
 /* Large Devices, Wide Screens */
 
-@media only screen and (max-width : $lg) {
+@media only screen and (max-width: $lg) {
 
 }
+
 /* Medium Devices, Desktops */
 
-@media only screen and (max-width : $mg) {
-
+@media only screen and (max-width: $mg) {
+  .slider {
+    li {
+      float: left;
+      width: 910px;
+      height: 200px;
+    }
+  }
 }
+
 /* Small Devices, Tablets */
 
-@media only screen and (max-width : $sm) {
-
+@media only screen and (max-width: $sm) {
 }
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width : $xs) {
+@media only screen and (max-width: $xs) {
   .right-nav {
     display: none;
   }
@@ -42,42 +49,40 @@ $custom: 320px;
   }
 }
 
-
 /* Custom, iPhone Retina */
 
-@media only screen and (max-width : $custom) {
+@media only screen and (max-width: $custom) {
 
 }
-
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 
-@media only screen and (min-width : $custom) {
+@media only screen and (min-width: $custom) {
 
 }
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (min-width : $xs) {
+@media only screen and (min-width: $xs) {
 
 }
 
 /* Small Devices, Tablets */
 
-@media only screen and (min-width : $sm) {
+@media only screen and (min-width: $sm) {
 
 }
 
 /* Medium Devices, Desktops */
 
-@media only screen and (min-width : $mg) {
+@media only screen and (min-width: $mg) {
 
 }
 
 /* Large Devices, Wide Screens */
 
-@media only screen and (min-width : $lg) {
+@media only screen and (min-width: $lg) {
 
 }

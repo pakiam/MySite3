@@ -1,29 +1,37 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+  /* line 17, ../sass/media.scss */
+  .slider li {
+    float: left;
+    width: 910px;
+    height: 200px;
+  }
+}
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /* line 26, ../sass/media.scss */
+  /* line 33, ../sass/media.scss */
   .right-nav {
     display: none;
   }
 
-  /* line 29, ../sass/media.scss */
+  /* line 36, ../sass/media.scss */
   .temoigne {
     display: none;
   }
 
-  /* line 33, ../sass/media.scss */
+  /* line 40, ../sass/media.scss */
   .features p {
     margin-bottom: 10px;
   }
-  /* line 36, ../sass/media.scss */
+  /* line 43, ../sass/media.scss */
   .features img {
     display: none;
   }
 
-  /* line 40, ../sass/media.scss */
+  /* line 47, ../sass/media.scss */
   .second-block {
     margin-top: 20px;
   }
